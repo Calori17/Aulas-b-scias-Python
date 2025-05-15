@@ -32,5 +32,3 @@ elif salario >= 6001 and salario <= 9000:
 else:
       print ('Gerente de projeto')
 
-
-adicao = 10 + 10 
