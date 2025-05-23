@@ -6,7 +6,7 @@ dinheiro_em_conta = 12.000
 interpolacao = '%s, o Senhor possui %.2f em conta' % (nome, dinheiro_em_conta)
 print (interpolacao)
 
-# TABOADA DE OUTRA FORMA
+# TABUADA DE OUTRA FORMA
 
 numero = int(input("Digite o número que deseja fazer a taboada:"))
 
