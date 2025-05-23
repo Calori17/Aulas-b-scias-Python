@@ -8,7 +8,3 @@ elif numero_2 > numero_1:
     print ("O número 2 é maior que o número 1.")
 elif numero_1 == numero_2:
     print ("O número 1 é igual que o número 2")
-
-
-nome = 'Arthur'
-print (nome[2])
