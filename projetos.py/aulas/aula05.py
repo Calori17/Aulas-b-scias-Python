@@ -12,4 +12,4 @@ numero_01 = int(input("Digite o primeiro número que deseja somar?"))
 
 numero_02 = int(input("Digite o segundo número que deseja somar?"))
 
-print(f"O resultado é: {numero_01 + numero_02}.2f")
+print(f"O resultado é: {numero_01 + numero_02}")
