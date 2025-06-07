@@ -1,3 +1,5 @@
+# TIPOS
+
 print ('1', type("1"))
 print (1, type(1))
 print (1.1, type(1.1))
@@ -7,6 +9,7 @@ print (True, type(True))
 nome_completo = 'Arthur Calori' 
 print (nome_completo)
 
+# EXERCICIO BASICO
 
 nome = 'Arthur'
 idade = 17

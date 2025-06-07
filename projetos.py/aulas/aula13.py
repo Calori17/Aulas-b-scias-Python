@@ -10,4 +10,4 @@ while condicao_while:
     if nome == "Sair" or nome == "":
         break
 
-print ("Perguntas de  nome finalizado.")
+print ("Perguntas de nome finalizada.")

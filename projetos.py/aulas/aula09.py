@@ -1,5 +1,5 @@
-# try
-# except
+# TRY E EXCEPT
+
 
 numero_div = float(input("Digite um número para ser divido: "))
 divisao = float(input("Por qual número deseja dividir? "))

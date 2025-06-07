@@ -1,3 +1,5 @@
+# EXERCICIO IMC
+
 nome = str(input('Digite o seu nome:'))
 peso = int(input('Digite o seu peso:'))
 altura = float(input('Digite sua altura:'))

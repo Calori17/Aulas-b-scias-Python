@@ -1,3 +1,5 @@
+# WHILE REVISADO
+
 contador = 0
 
 while contador >= 0:
