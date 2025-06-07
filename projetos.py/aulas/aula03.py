@@ -1,3 +1,5 @@
+# EXERCICIO IF 
+
 nome = str(input('Digite qual é seu nome:'))
 idade = int(input('Digite sua idade:'))
 
