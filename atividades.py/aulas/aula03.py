@@ -1,26 +1,31 @@
 # EXERCICIO IF 
 
-nome = str(input('Digite qual é seu nome:'))
-idade = int(input('Digite sua idade:'))
+nome = str(input('Qual é o seu nome?'))
+idade = int(input('Quantos anos você tem?'))
 
 
 if idade >= 18:
-    print (f'Seja muito bem vindo {nome}! Você possui {idade} anos. Pode entrar, você é maior de idade!')    
+    print (f'Seja muito bem vindo {nome}! Você possui {idade} anos. E sua entrada no melhor restaurante foi liberada.')    
 else:
     print (f'Olá, {nome}. Não podemos permitir sua entrada! Você possui apenas {idade} anos.')
 
 sobremesa = str(input('Você deseja uma sobremesa gratuita? '))
 
-certeza = str(input("Tem certeza? Ela acabou de ser feita. "))
+if sobremesa.lower() == "sim":
+    print ("Tudo bem, aguarde que logo menos iremos trazer a sobremesa")
 
-resposta = 'Tenho certeza'
+elif sobremesa.lower() == "são":
+    certeza = str((input("Tem certeza? Ela acabou de ser feita (Sim/Não)")))
 
-if (sobremesa == 'Sim' or sobremesa == 'sim') and certeza != resposta:
-    print("Tudo bem, aguarde um momento que logo iremos trazer a sobremesa.")
-elif sobremesa == 'Não' or sobremesa == 'não':
-    print("Poxa, tudo bem. Mas ela é ótima, esperamos que na próxima você aceite.")
+    if certeza.lower() == "sim":
+        print ("Tudo bem, logo menos a sobremesa estará aqui")
+
+    else:
+        print ("Tudo bem, sem problemas")
+
 else:
-    print("Desculpa, não entendi.")
+    print ("Resposta inválida, por favor digite com Sim ou não.")
+
 
 
 pedido_namoro = str(input("você quer namorar comigo?"))
