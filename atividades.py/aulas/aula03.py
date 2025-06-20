@@ -21,3 +21,15 @@ elif sobremesa == 'Não' or sobremesa == 'não':
     print("Poxa, tudo bem. Mas ela é ótima, esperamos que na próxima você aceite.")
 else:
     print("Desculpa, não entendi.")
+
+
+pedido_namoro = str(input("você quer namorar comigo?"))
+
+if pedido_namoro == "Sim" or "sim":
+    print ("Eu te amo!")
+
+elif pedido_namoro == "Não" or "não":
+    print ("Eu não queria mesmo.")
+
+else:
+    print ("É sim ou não, burra")
