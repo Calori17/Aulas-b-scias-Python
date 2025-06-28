@@ -11,10 +11,3 @@ while indice < len(nome_completo):
     novo_nome += letra
     indice += 1
     break 
-
-
-
- 
-
-
-
