@@ -2,7 +2,17 @@
 
 import random
 
-while True:
+Num_1 = int(input("Digite o número 1: "))
+Num_2 = int(input("Digite o número 2: "))
+
+soma = Num_1 + Num_2
+
+print(f"A soma de {Num_1} e {Num_2} é: {soma}")
+
+resultado_final = soma
+
+
+while resultado_final == 3:
     numero_secreto = random.randint(1, 10)
     tentativas = 0
     adivinhar = None
